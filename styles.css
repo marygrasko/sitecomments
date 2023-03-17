@@ -1,0 +1,166 @@
+.body {
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #1246f07d;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+.title {
+
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center-fixed {
+
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+
+}
+
+form {
+    width: 260px;
+    height: auto;
+    margin: 0 auto auto auto;
+    padding: 20px;
+    border: 3px solid none;
+    border-radius: 10px;
+    background-color: #ffff;
+    font-family: 'Roboto';
+}
+
+form label,
+form fieldset {
+
+    font: bold 18px calibri, Arial;
+}
+
+form input {
+    box-sizing: border-box;
+    border: 3px solid rgba(204, 204, 204, 0.89);
+    font: 15px arial, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+form input:focus {
+    border: 3px solid rgba(49, 49, 219, 0.678);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+form input[type=text] {
+    width: 100%;
+    padding: 3px 5px;
+
+}
+
+form input[type=date] {
+    padding: 1px 5px;
+}
+
+form fieldset {
+    width: 125px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+form fieldset input[type=radio] {
+    width: 15px;
+    height: 15px;
+}
+
+form input[type=submit] {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 12px 32px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 20px;
+    background-color: #515bc9;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(197, 191, 191);
+    color: rgba(77, 77, 186, 0.558);
+    font-weight: normal;
+}
+
+form input[type=submit]:active {
+    font-weight: normal;
+}
+
+table {
+    width: auto;
+    margin: 70px auto;
+    border-collapse: collapse;
+    background-color: #ffff;
+    border-radius: 10px;
+
+}
+
+table caption {
+    font-weight: 100;
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+table thead tr {
+    background-color: rgb(255, 255, 255);
+    color: rgb(55, 107, 166);
+
+
+}
+
+table thead tr th {
+    padding: 3px 8px;
+    border-radius: 10px;
+    border-bottom: 1px #515bc9bf solid;
+}
+
+table tbody tr:hover {
+    background-color: rgba(211, 211, 211, 0.51);
+
+}
+
+table tbody tr {
+    border-bottom: 0.5px #515bc978 solid;
+
+}
+
+table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+table tbody td {
+
+    padding: 3px 6px;
+
+}
+
+table tbody td:last-of-type {
+    border-bottom: 0.5px #fdfdff solid;
+}
+
+table button {
+    border-radius: 10px;
+    border: none;
+    color: rgba(209, 21, 21, 0.771);
+    padding: 3px 15px;
+    background-color: #ffff;
+}

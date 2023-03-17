@@ -1,0 +1,57 @@
+<!DOCTYPE html">
+<html lang="en">
+
+<head>
+    <title>Comments</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+    <div class="body">
+        <h1 class="title">Добавьте свой комментарий</h1>
+        <div class="center-fixed">
+            <form id="form">
+                <label for="Name">Имя</label><br>
+                <input type="text" id="Name" placeholder="Введите имя"><br>
+
+                <label for="DataBirthday">Дата рождения</label><br>
+                <input type="date" id="DataBirthday" value="2001-08-29" required>
+
+                <fieldset>
+                    <legend>Пол</legend>
+                    <input type="radio" name="sex" value="man" id="man" checked>
+                    <label for="man">М</label><br>
+
+                    <input type="radio" name="sex" value="woman" id="woman">
+                    <label for="woman">Ж</label>
+
+                </fieldset>
+                <label for="comment">Комментарий</label><br>
+                <input type="text" id="comment" placeholder="Введите свой комментарий"><br>
+                <input type="submit" name="button" id="toSend" value="Отправить">
+            </form>
+        </div>
+        <table>
+            <caption>
+                <h2>Комментарии</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Имя</th>
+                    <th>Дата Рождения</th>
+                    <th>Пол</th>
+                    <th>Дата публикации</th>
+                    <th>Комментарий</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyResult"></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
